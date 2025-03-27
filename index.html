@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang = "en-EN">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
+    <meta name = "author" content = "(c) negatiwe and shinsetsu">
+    <meta name = "keywords" content = "itec, competition, programming, web, development">
+    <meta name = "version" content = "1.0.0">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/default.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/home-page.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/media-screens.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/navigation-bar.css">
+    <title>iTEC - MAIN PAGE</title>
+  </head>
+  <body>
+      <section class = "hero-section web-section">
+        <div class = "container">
+          <div class = "content">
+
+            <section class = "navigation-bar">
+              <div class = "left-column">
+                <img class = "itec-logo" src = "media/itec.png" width = "150" height = "auto" draggable = "false" alt = "iTEC Logo">
+              </div>
+
+              <div class = "center-column">
+                <button class = "navigation-button searching-button" type = "button" id = "navigation-button-information">ABOUT</button>
+                <button class = "navigation-button searching-button" type = "button" id = "navigation-button-technologies">TECHNOLOGIES</button>
+                <button class = "navigation-button searching-button" type = "button" id = "navigation-button-projects">PROJECTS</button>
+                <button class = "navigation-button searching-button" type = "button" id = "navigation-button-contact">CONTACT</button>
+
+                <button class = "navigation-button searching-button hidden" type = "button" id = "navigation-button-phone-auth">AUTHENTICATION</button>
+                <button class = "navigation-button searching-button hidden" type = "button" id = "navigation-button-phone-register">REGISTER</button>
+              </div>
+
+              <div class = "right-column">
+
+                <div class = "navigation-bar-phone-menu">
+                  <div class = "menu-icon">
+                    <input class = "menu-icon__cheeckbox" type = "checkbox"/>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class = "navigation-bar-authentication">
+                  <button class = "navigation-login-button authentication-buttons" type = "button" id = "navigation-button-login">AUTHENTICATION</button>
+                  <button class = "navigation-register-button authentication-buttons" type = "button" id = "navigation-button-register">REGISTER</button>
+                </div>
+
+              </div>
+            </section>
+
+            <div class = "content-separator">
+              <div class = "hero-text">
+                <span>Digital innovation</span>
+                <span>Limitless creativity</span>
+                <span>Building the future of technology</span>
+              </div>
+
+              <div class = "hero-3d-object">
+                <div class = "object"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class = "sub-section web-section">
+        <div class = "left-container">
+          <div class = "overlay"></div>
+        </div>
+
+        <div class = "right-container">
+          <div class = "separator">
+            <div class = "feature-label">
+              <h2>WHY SO SPECIAL?</h2>
+              <h1>FEATURES</h1>
+            </div>
+            <div class = "feature-container">
+              <div class = "timeline">
+                <div class = "feature active" onclick = "showContent(this)">
+                  <div class = "circle"></div>
+                  <div class = "text">
+                    <p class = "category">GREAT SECURITY</p>
+                    <p class = "description" style = "display: block; opacity: 1;">Our advanced security systems protect your data and information, giving you peace of mind and confidence.</p>
+                  </div>
+                </div>
+
+                <div class = "feature" onclick = "showContent(this)">
+                  <div class = "circle"></div>
+                  <div class = "text">
+                    <p class = "category">GREAT USER INTERFACE</p>
+                    <p class = "description">Our modern and intuitive interface provides you with an easy-to-use experience, allowing you to quickly and efficiently access all essential features.</p>
+                  </div>
+                </div>
+
+                <div class = "feature" onclick = "showContent(this)">
+                  <div class = "circle"></div>
+                  <div class = "text">
+                    <p class = "category">HIGH PERFORMANCE</p>
+                    <p class = "description">The platform is optimized for high performance, ensuring speed and stability at all times, so you can focus on what truly matters.</p>
+                  </div>
+                </div>
+
+                <div class = "feature" onclick = "showContent(this)">
+                  <div class = "circle"></div>
+                  <div class = "text">
+                    <p class = "category">INNOVATIVE FEATURES</p>
+                    <p class = "description">You benefit from the latest cutting-edge technologies and advanced features, ensuring a seamless and modern experience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class = "sub-section web-section terminal-section">
+        <div class="terminal-container">
+          <div class="terminal" id="terminal">
+            <div id="output">
+              <pre class = "ascii-itec">
+$$\ $$$$$$$$\ $$$$$$$$\  $$$$$$\
+\__|\__$$  __|$$  _____|$$  __$$\
+$$\    $$ |   $$ |      $$ /  \__|
+$$ |   $$ |   $$$$$\    $$ |
+$$ |   $$ |   $$  __|   $$ |
+$$ |   $$ |   $$ |      $$ |  $$\
+$$ |   $$ |   $$$$$$$$\ \$$$$$$  |
+\__|   \__|   \________| \______/
+            </pre>
+              <div>Type <strong>help</strong> in order to see the available commands.</div>
+            </div>
+            <div class="input-line">
+              <span class="prompt">user@root:~$</span>
+              <div id="command-input" contenteditable="true"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class = "sub-section web-section footer-section">
+        <div class = "newsletter-container">
+          <div class = "newsletter-photo">
+            <div class = "obiect-3d"></div>
+          </div>
+
+          <div class = "newsletter-content">
+            <div class = "newsletter-text">
+              <h2>Want to stay in touch?</h2>
+              <h1>NEWSLETTER <span>SUBSCRIBE</span></h1>
+              <p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about our project.</p>
+            </div>
+
+            <div class = "newsletter-subscription-area">
+              <input class = "email-input" type = "email" placeholder = "Enter your email address">
+              <button class = "subscription-button">Subscribe now!</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class = "footer-container">
+          <div class = "footer-top-section">
+            <div class = "footer-itec-logo">
+              <img src = "/media/itec.png" width = "150px" height = "auto" draggable = false alt = "iTEC Logo">
+            </div>
+
+            <div class = "footer-links">
+              <button class = "footer-buttons" draggable = "false">HOME</button>
+              <button class = "footer-buttons" draggable = "false">ABOUT</button>
+              <button class = "footer-buttons" draggable = "false">REGISTER</button>
+              <button class = "footer-buttons" draggable = "false">AUTHENTICATION</button>
+            </div>
+
+            <div class = "footer-socials">
+            <!-- TODO: DE CONECTAT SOCIALS-URILE DE iTEC LA FOOTER -->
+              <div class = "instagram">
+                <svg xmlns = "http://www.w3.org/2000/svg" x = "0px" y = "0px" width = "50" height = "50" viewBox = "0 0 24 24">
+                  <path d = "M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                </svg>
+              </div>
+              <div class = "facebook">
+                <svg xmlns = "http://www.w3.org/2000/svg" x = "0px" y = "0px" width = "50" height = "50" viewBox = "0 0 24 24">
+                  <path d = "M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"></path>
+                </svg>
+              </div>
+              <div class = "website">
+                <svg class = "w-6 h-6 text-gray-800 dark:text-white" aria-hidden = "true" xmlns = "http://www.w3.org/2000/svg" width = "50" height = "50" fill = "none" viewBox = "0 0 24 24">
+                  <path stroke = "currentColor" stroke-linecap = "round" stroke-linejoin = "round" stroke-width = "2" d = "M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class = "border"></div>
+
+          <div class = "footer-bottom-section">
+            <span>developed by @negatiwe & @shinsetsu for itec.ro competition</span>
+          </div>
+        </div>
+      </section>
+
+      <script src = "javascript/anime.min.js"></script>
+      <script src = "javascript/jquery-3.7.1.min.js"></script>
+      <script type = "module" src = "javascript/three-rendering-models.js"></script>
+      <script type = "text/javascript" src = "javascript/home-page.js"></script>
+      <script type = "text/javascript" src = "javascript/navigation-bar.js"></script>
+      <script type = "text/javascript" src = "javascript/terminal.js"></script>
+
+  </body>
+</html>

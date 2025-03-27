@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "en-EN">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
+        <meta name = "author" content = "(c) negatiwe and shinsetsu">
+        <meta name = "keywords" content = "itec, competition, programming, web, development">
+        <meta name = "version" content = "1.0.0">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet/default.css">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet/dashboard.css">
+        <title>iTEC - Dashboard</title>
+    </head>
+    <body>
+        <div class = "dashboard-container">
+
+            <div class = "left-container">
+                <div class = "logo-container">
+                    <img src = "media/itec.png" width = "200px" draggable = "false" alt = "iTEC Logo" class = "itec-logo">
+                </div>
+
+                <div class = "dashboard-buttons-container">
+                    <div class = "category">
+                        <div class = "category-title">
+                            <svg width = "24" height = "8" viewBox = "0 0 16 8" fill = "none" xmlns = "http://www.w3.org/2000/svg" class = "arrow-icon">
+                                <path d = "M15 4H4V1" stroke = "white"/>
+                                <path d = "M14.5 4H3.5H0" stroke = "white"/>
+                                <path d = "M15.8536 4.35355C16.0488 4.15829 16.0488 3.84171 15.8536 3.64645L12.6716 0.464466C12.4763 0.269204 12.1597 0.269204 11.9645 0.464466C11.7692 0.659728 11.7692 0.976311 11.9645 1.17157L14.7929 4L11.9645 6.82843C11.7692 7.02369 11.7692 7.34027 11.9645 7.53553C12.1597 7.7308 12.4763 7.7308 12.6716 7.53553L15.8536 4.35355ZM15 4.5L15.5 4.5L15.5 3.5L15 3.5L15 4.5Z" fill = "white"/>
+                            </svg>
+                            <span>MAIN</span>
+                        </div>
+
+
+                        <div class = "category-button">
+                            <button class = "category-button">
+                                <svg style = "margin-right: 5px;" stroke-linejoin = "round" stroke-linecap = "round" stroke-width = "2" stroke = "#DDDDDD" fill = "none" viewBox = "0 0 24 24" width = "20" xmlns = "http://www.w3.org/2000/svg" class = "mobile">
+                                    <path d = "M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                                    <path d = "m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                                    <path d = "M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                                    <path d = "M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                </svg>HOMEPAGE</button>
+                        </div>
+
+
+                        <div class = "category-button">
+                            <button class = "category-button">
+                                <svg style = "margin-right: 5px; filter: invert(1);" xmlns = "http://www.w3.org/2000/svg" fill = "inherit" viewBox = "0 0 20 18" width = "20" class = "icon favorite mobile">
+                                    <path fill = "inherit" d = "M14.44 0C12.63 0 11.01 0.88 10 2.23C9.48413 1.53881 8.81426 0.977391 8.04353 0.590295C7.27281 0.203198 6.42247 0.00108555 5.56 0C2.49 0 0 2.5 0 5.59C0 6.78 0.19 7.88 0.52 8.9C2.1 13.9 6.97 16.89 9.38 17.71C9.72 17.83 10.28 17.83 10.62 17.71C13.03 16.89 17.9 13.9 19.48 8.9C19.81 7.88 20 6.78 20 5.59C20 2.5 17.51 0 14.44 0Z"></path>
+                                </svg>MEMBERS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "right-container">
+                <div class = "header">
+                    <div class = "search-container">
+                        <div class = "group">
+                            <svg viewBox = "0 0 24 24" aria-hidden = "true" class = "search-icon">
+                                <g>
+                                    <path d = "M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                                </g>
+                            </svg>
+                            <input id = "query" class = "input" type = "search" placeholder = "Search user..." name = "searchbar"/>
+                        </div>
+                    </div>
+
+                    <div class = "user-profile-container">
+                        <div class = "template">
+                            <div tabindex = "0" class = "popup button" style = "padding:0 0.225rem  0; border-top-right-radius: 1.2rem; border-bottom-right-radius: 1.2rem;">
+                                <div class = "popup-header">
+                                    <p style = "letter-spacing: 1px; font-weight: 600;   padding: 0.625rem 0rem 0.625rem 0.825rem;">
+                                        negatiwe
+                                    </p>
+
+                                    <img src = "media/profile-picture.jpg" class = "icon" width = "32" height = "32" alt = "Profile Picture">
+                                </div>
+                                <div class = "popup-main">
+                                    <ul class = "list-box">
+                                        <li class = "button item">Your Profile</li>
+                                        <li class = "button item">Setting</li>
+                                        <li class = "button item">Log out</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "content">
+                </div>
+            </div>
+
+        </div>
+
+    <script type = "text/javascript" src = "javascript/dashboard.js"></script>
+    </body>
+</html>

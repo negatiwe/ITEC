@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uJiu1bZavDGcVAtOHYU8j4gd2L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/negatiwe/Desktop/test.html",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "discord-application",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\negatiwe\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="6fa548e6-1a05-41e9-9c97-9630423a956e" reportId="ITEC/qodana/2025-03-18" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\negatiwe\Desktop\ITEC\models" />
+      <recent name="C:\Users\negatiwe\Desktop\ITEC\javascript" />
+      <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-WS-251.23774.114" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="" />
+      <created>1741973296652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741973296652</updated>
+      <workItem from="1741973297706" duration="3130000" />
+      <workItem from="1742045258809" duration="7756000" />
+      <workItem from="1742061186677" duration="1810000" />
+      <workItem from="1742100576011" duration="7157000" />
+      <workItem from="1742108932528" duration="16203000" />
+      <workItem from="1742130484824" duration="3024000" />
+      <workItem from="1742133544361" duration="1753000" />
+      <workItem from="1742138258706" duration="1849000" />
+      <workItem from="1742141413048" duration="1932000" />
+      <workItem from="1742144855539" duration="2649000" />
+      <workItem from="1742150374077" duration="896000" />
+      <workItem from="1742223232761" duration="9906000" />
+      <workItem from="1742290330998" duration="2475000" />
+      <workItem from="1742307285305" duration="14571000" />
+      <workItem from="1742380380746" duration="12000" />
+      <workItem from="1742478994293" duration="40000" />
+      <workItem from="1742494638453" duration="3324000" />
+      <workItem from="1742574776427" duration="3943000" />
+      <workItem from="1742655325180" duration="13000" />
+      <workItem from="1742662169480" duration="8806000" />
+      <workItem from="1742725169336" duration="869000" />
+      <workItem from="1742733328761" duration="292000" />
+      <workItem from="1742751377004" duration="3002000" />
+      <workItem from="1742805689282" duration="16000" />
+      <workItem from="1742846898612" duration="722000" />
+      <workItem from="1742847737237" duration="5094000" />
+      <workItem from="1742918641734" duration="2172000" />
+      <workItem from="1742927545933" duration="5638000" />
+      <workItem from="1743003892785" duration="7000" />
+      <workItem from="1743013167712" duration="6941000" />
+      <workItem from="1743073956746" duration="3626000" />
+      <workItem from="1743084980990" duration="10803000" />
+      <workItem from="1743100435090" duration="63000" />
+      <workItem from="1743100512843" duration="10000" />
+      <workItem from="1743101443237" duration="1651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
