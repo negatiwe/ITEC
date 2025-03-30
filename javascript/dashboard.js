@@ -7,7 +7,6 @@ document.querySelector(".category-title").addEventListener("mouseleave", () => {
 });
 
 $(document).ready(function() {
-    // Adăugăm clasa hidden în CSS
     $('<style>').prop('type', 'text/css').html('.hidden { display: none; }').appendTo('head');
 
     $('#homepage').click(function() {
@@ -20,7 +19,6 @@ $(document).ready(function() {
         $('.homepage-content').addClass('hidden');
     });
 
-    // Ascundem members-content inițial
     $('.members-content').addClass('hidden');
 });
 
