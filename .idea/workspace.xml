@@ -9,8 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Fixed some bugs and added OTP Verification front-end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otp-verification.html" beforeDir="false" afterPath="$PROJECT_DIR$/otp-verification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/otp-verification.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/otp-verification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/dashboard.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,9 @@
       <workItem from="1743195392851" duration="672000" />
       <workItem from="1743256055744" duration="1550000" />
       <workItem from="1743337675640" duration="5981000" />
-      <workItem from="1743361009454" duration="124000" />
+      <workItem from="1743361009454" duration="167000" />
+      <workItem from="1743361356663" duration="531000" />
+      <workItem from="1743361905236" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Update!&#10;&#10;Fixed some issues with the mobile UI.">
       <option name="closed" value="true" />
@@ -185,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743360747984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed some bugs and added OTP Verification front-end">
+      <option name="closed" value="true" />
+      <created>1743361172859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743361172859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

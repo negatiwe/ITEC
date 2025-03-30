@@ -320,6 +320,7 @@ button:after {
     margin-left: var(--gap);
 }
 
+
 @media screen and (max-width: 1328px) {
     .group {
         width: 170px;
