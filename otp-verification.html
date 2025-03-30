@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
+    <meta name = "author" content = "(c) negatiwe and shinsetsu">
+    <meta name = "keywords" content = "itec, competition, programming, web, development">
+    <meta name = "version" content = "1.0.0">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/otp-verification.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/default.css">
+    <link rel = "icon" type = "image/png" href = "media/web-icon.png">
+    <title>iTEC - OTP Verification</title>
+</head>
+    <body>
+        <form class = "otp-Form">
+            <span class = "mainHeading">Enter OTP</span>
+            <p class = "otpSubheading">We have sent a verification code to your mobile number</p>
+                <div class = "inputContainer">
+                    <input required = "required" maxlength = "1" type = "text" class = "otp-input" id = "otp-input1" inputmode = "numeric" pattern = "[0-9]*" autocomplete = "off">
+                    <input required = "required" maxlength = "1" type = "text" class = "otp-input" id = "otp-input2" inputmode = "numeric" pattern = "[0-9]*" autocomplete = "off">
+                    <input required = "required" maxlength = "1" type = "text" class = "otp-input" id = "otp-input3" inputmode = "numeric" pattern = "[0-9]*" autocomplete = "off">
+                    <input required = "required" maxlength = "1" type = "text" class = "otp-input" id = "otp-input4" inputmode = "numeric" pattern = "[0-9]*" autocomplete = "off">
+                </div>
+            <button class = "verifyButton" type = "submit">VERIFY</button>
+            <p class = "resendNote">Didn't receive the code? <button class = "resendBtn">Resend Code</button></p>
+        </form>
+    <script type = "text/javascript" src = "javascript/jquery-3.7.1.min.js"></script>
+    <script type = "text/javascript" src = "javascript/otp-verification.js"></script>
+    </body>
+</html>

@@ -7,10 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Update!&#10;&#10;Fixed some issues with the mobile UI.">
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Fixed some issues with the mobile UI.">
+      <change afterPath="$PROJECT_DIR$/dashboard-alts/stylesheet/your-account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/otp-verification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/web-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otp-verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone-verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/otp-verification.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-alts/your-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/your-account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,6 +52,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dashboard-alts/stylesheet/your-account.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dashboard.html" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
@@ -62,29 +73,32 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2uJiu1bZavDGcVAtOHYU8j4gd2L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/negatiwe/Desktop/test.html",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "discord-application",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/negatiwe/Desktop/i-will-commit-suicide&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\negatiwe\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="6fa548e6-1a05-41e9-9c97-9630423a956e" reportId="ITEC/qodana/2025-03-18" />
@@ -92,18 +106,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\models" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\javascript" />
-      <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\negatiwe\Desktop\i-will-commit-suicide" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-WS-251.23774.114" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.210" />
       </set>
     </attachedChunks>
   </component>
@@ -150,7 +165,10 @@
       <workItem from="1743100435090" duration="63000" />
       <workItem from="1743100512843" duration="10000" />
       <workItem from="1743101443237" duration="2618000" />
-      <workItem from="1743162458636" duration="2786000" />
+      <workItem from="1743162458636" duration="6285000" />
+      <workItem from="1743195392851" duration="672000" />
+      <workItem from="1743256055744" duration="1550000" />
+      <workItem from="1743337675640" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="Update!&#10;&#10;Fixed some issues with the mobile UI.">
       <option name="closed" value="true" />
@@ -160,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743163828563</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed some issues with the mobile UI.">
+      <option name="closed" value="true" />
+      <created>1743165477003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743165477003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update!&#10;&#10;Fixed some issues with the mobile UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update!&#10;&#10;Fixed some issues with the mobile UI." />
+    <MESSAGE value="Fixed some issues with the mobile UI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some issues with the mobile UI." />
   </component>
 </project>
