@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Fixed some bugs and added OTP Verification front-end">
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Some changes for dashboard.js;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/notifications.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/notifications.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,8 @@
       <workItem from="1743361009454" duration="167000" />
       <workItem from="1743361356663" duration="531000" />
       <workItem from="1743361905236" duration="343000" />
-      <workItem from="1743362263312" duration="5000" />
+      <workItem from="1743362263312" duration="30000" />
+      <workItem from="1743362425244" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="Update!&#10;&#10;Fixed some issues with the mobile UI.">
       <option name="closed" value="true" />
@@ -203,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743362247336</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some changes for dashboard.js;">
+      <option name="closed" value="true" />
+      <created>1743362285331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743362285331</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +222,7 @@
     <MESSAGE value="Update!&#10;&#10;Fixed some issues with the mobile UI." />
     <MESSAGE value="Fixed some issues with the mobile UI." />
     <MESSAGE value="Fixed some bugs and added OTP Verification front-end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some bugs and added OTP Verification front-end" />
+    <MESSAGE value="Some changes for dashboard.js;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes for dashboard.js;" />
   </component>
 </project>
