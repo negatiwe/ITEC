@@ -7,16 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="">
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Your Account;&#10;Created - Account Setting - still blank;">
+      <change afterPath="$PROJECT_DIR$/javascript/account-settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-alts/account-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/account-settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-alts/stylesheet/your-account.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/stylesheet/your-account.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-alts/your-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/your-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-alts/stylesheet/account-settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/stylesheet/account-settings.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -130,6 +125,15 @@
       <workItem from="1743100512843" duration="10000" />
       <workItem from="1743101443237" duration="1651000" />
     </task>
+    <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
+      <option name="closed" value="true" />
+      <created>1743771770411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743771770411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
   </component>
 </project>

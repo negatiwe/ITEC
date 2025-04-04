@@ -2,7 +2,7 @@
 <html lang = "en-EN">
 <head>
     <meta charset = "UTF-8" />
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
     <meta name = "author" content = "(c) negatiwe and shinsetsu">
     <meta name = "keywords" content = "itec, competition, programming, web, development">
@@ -13,6 +13,95 @@
     <title>iTEC - Your Profile</title>
 </head>
 <body>
-
+    <div class = "settings-container">
+        <div class = "settings-sidebar">
+            <nav class = "settings-nav">
+                <h3>Setări cont</h3>
+                <ul>
+                    <li class = "nav-item active" data-section = "general">
+                        <svg class = "nav-icon" viewBox = "0 0 24 24">
+                            <path fill = "currentColor" d = "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                        </svg>
+                        General
+                    </li>
+    
+                    <li class = "nav-item" data-section = "securitate">
+                        <svg class = "nav-icon" viewBox = "0 0 24 24">
+                            <path fill = "currentColor" d = "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                        </svg>
+                        Securitate
+                    </li>
+    
+                    <li class = "nav-item" data-section = "parola">
+                        <svg class = "nav-icon" viewBox = "0 0 24 24">
+                            <path fill = "currentColor" d = "M12 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6-6V9a6 6 0 0 0-12 0v2H4v10h16V11h-2zm-8-2a4 4 0 0 1 8 0v2H10V9z"/>
+                        </svg>
+                        Parolă
+                    </li>
+    
+                    <li class = "nav-item" data-section = "notificari">
+                        <svg class = "nav-icon" viewBox = "0 0 24 24">
+                            <path fill = "currentColor" d = "M12 22a2 2 0 0 0 2-2H10a2 2 0 0 0 2 2zm6-6V9a6 6 0 0 0-5-5.91V2h-2v1.09A6 6 0 0 0 6 9v7L4 18v1h16v-1l-2-2z"/>
+                        </svg>
+                        Notificări
+                    </li>
+    
+                    <li class = "nav-item" data-section = "logout">
+                        <svg class = "nav-icon" viewBox = "0 0 24 24">
+                            <path fill = "currentColor" d = "M16 13v-2H7V8l-5 4 5 4v-3h9zm3-10H5c-1.1 0-2 .9-2 2v6h2V5h14v14H5v-6H3v6c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                        Deconectare
+                    </li>
+                </ul>
+    
+            </nav>
+        </div>
+    
+        <div class = "settings-content" id = "settings-content">
+            <!-- GENERAL -->
+            <div class = "settings-section" id = "section-general">
+                <h2>Setări Generale</h2>
+                <p>Aici poți modifica informațiile de bază ale contului tău.</p>
+            </div>
+    
+            <!-- SECURITATE -->
+            <div class = "settings-section hidden" id = "section-securitate">
+                <h2>Securitate</h2>
+                <p>Gestionează autentificarea în doi pași, sesiuni și alte opțiuni.</p>
+            </div>
+    
+            <!-- PAROLĂ -->
+            <div class = "settings-section hidden" id = "section-parola">
+                <h2>Schimbă Parola</h2>
+                <form>
+                    <label for = "old-pass">Parola veche</label>
+                    <input type = "password" id = "old-pass" placeholder = "Parola actuală">
+    
+                    <label for = "new-pass">Parola nouă</label>
+                    <input type = "password" id = "new-pass" placeholder = "Parola nouă">
+    
+                    <label for = "confirm-pass">Confirmă parola</label>
+                    <input type = "password" id = "confirm-pass" placeholder = "Reintrodu parola">
+    
+                    <button type = "submit">Salvează modificările</button>
+                </form>
+            </div>
+    
+            <!-- NOTIFICĂRI -->
+            <div class = "settings-section hidden" id = "section-notificari">
+                <h2>Notificări</h2>
+                <p>Configurează ce tipuri de notificări dorești să primești.</p>
+            </div>
+    
+            <!-- DECONTECTARE -->
+            <div class = "settings-section hidden" id = "section-logout">
+                <h2>Deconectare</h2>
+                <p>Te poți deconecta de pe toate sesiunile active.</p>
+                <button>Deconectează-mă</button>
+            </div>
+        </div>
+    </div>
+    <script src = "/javascript/jquery-3.7.1.min.js"></script>
+    <script src = "/javascript/account-settings.js"></script>
 </body>
 </html>
