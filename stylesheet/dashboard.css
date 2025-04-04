@@ -293,7 +293,7 @@ button:after {
     position: absolute;
     top: 100%;
     right: 0;
-    opacity: 0;
+    visibility: hidden;
     margin-top: var(--gap);
     border-radius: var(--br);
     padding: var(--gap);
@@ -304,7 +304,7 @@ button:after {
 
 .popup:focus .popup-main {
     margin-top: 1rem;
-    opacity: 1;
+    visibility: visible;
 }
 
 .list-box {
@@ -319,6 +319,55 @@ button:after {
 .button-name {
     margin-left: var(--gap);
 }
+
+.dashboard-view-notifications {
+    background: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dashboard-view-notifications:hover {
+/*    TODO: De adaugat culoare la svg pt. hover;*/
+}
+
+.dashboard-view-notifications svg {
+    color: #fff;
+}
+
+.notification-box {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 300px;
+    background-color: var(--dark-color);
+    color: var(--txt);
+    border: 1px solid var(--border-color);
+    border-radius: var(--br);
+    padding: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.notification-content {
+    font-size: 0.9rem;
+    font-family: var(--secondary-font-m), sans-serif;
+    color: var(--white);
+    border-left: 4px solid var(--white);
+    padding-left: 0.5rem;
+    margin-bottom: 10px;
+    width: 290px;
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
 
 
 @media screen and (max-width: 1328px) {
@@ -362,11 +411,11 @@ button:after {
 
 @media screen and (max-width: 759px) {
     .group {
-        width: 100px;
+        width: 120px;
     }
 
     .itec-logo {
-        width: 100px;
+        width: 120px;
     }
 }
 
@@ -405,7 +454,13 @@ button:after {
         min-width: 100px;
     }
 
-    .button-name {
-        display: none;
+    .category-button {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .button-name:hover {
+        color: gray;
+        transition-duration: 400ms;
     }
 }

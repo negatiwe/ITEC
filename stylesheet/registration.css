@@ -5,7 +5,7 @@ body {
 
     width: 100%;
     height: 100vh;
-    min-height: 1000px;
+    min-height: 500px;
 }
 
 .registration-form {
@@ -210,3 +210,26 @@ input:-webkit-autofill:active{
 }
 
 
+.input-date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.input-date {
+    cursor: pointer;
+    color: var(--white);
+}
+
+
+.input-date {
+    -webkit-appearance: none;
+}
+
+input[type="date"]::-moz-focus-inner {
+    border: 0;
+}
