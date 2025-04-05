@@ -7,16 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Account Settings;">
-      <change afterPath="$PROJECT_DIR$/fonts/SpaceGrotesk-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SpaceGrotesk-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/studentions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/ChatGPT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studentions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylesheet/studentions.css" afterDir="false" />
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Panel">
+      <change afterPath="$PROJECT_DIR$/eventhub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/eventhub.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/studentions.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/studentions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentions.html" beforeDir="false" afterPath="$PROJECT_DIR$/studentions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/studentions.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/studentions.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +53,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2uJiu1bZavDGcVAtOHYU8j4gd2L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.studentions.html.executor": "Debug",
+    "JavaScript Debug.studentions.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -157,7 +159,7 @@
       <workItem from="1743101443237" duration="1651000" />
       <workItem from="1743803185524" duration="203000" />
       <workItem from="1743803458419" duration="5738000" />
-      <workItem from="1743835219036" duration="5139000" />
+      <workItem from="1743835219036" duration="23002000" />
     </task>
     <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
       <option name="closed" value="true" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743773249252</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added - Panel">
+      <option name="closed" value="true" />
+      <created>1743840666555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743840666555</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
     <MESSAGE value="Added - Account Settings;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added - Account Settings;" />
+    <MESSAGE value="Added - Panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added - Panel" />
   </component>
 </project>

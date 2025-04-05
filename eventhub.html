@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
+  <meta name = "author" content = "(c) negatiwe and shinsetsu">
+  <meta name = "keywords" content = "itec, competition, programming, web, development">
+  <meta name = "version" content = "1.0.0">
+  <link rel = "stylesheet" type = "text/css" href = "stylesheet/default.css">
+  <link rel = "stylesheet" type = "text/css" href = "stylesheet/eventhub.css">
+  <link rel = "icon" type = "image/png" href = "media/web-icon.png">
+  <title>iTEC - MAIN PAGE</title>
+</head>
+  <body>
+
+  <div class="event-hub-wrapper">
+    <div class="event-hub-left">
+      <h1>Welcome to Studentious Hub</h1>
+      <p>Discover and join amazing events tailored for students. Connect, grow, and explore your interests!</p>
+      <button class="create-event-btn">+ Create Event</button>
+    </div>
+
+    <div class="hub-right">
+      <h2 class="upcoming-title">Upcoming Events</h2>
+      <div class="calendar-widget">
+        <div id="calendar"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-header">
+    <h2 class="search-title">Search Events</h2>
+    <div class="search-input-container">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <circle cx="11" cy="11" r="8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <input type="text" placeholder="Search events..." />
+    </div>
+  </div>
+
+
+
+
+  <script type = "text/javascript" src = "javascript/jquery-3.7.1.min.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js'></script>
+  <script type = "text/javascript" src = "javascript/eventhub.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const calendarEl = document.getElementById('calendar');
+      const calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        height: 400,
+        events: [
+          { title: 'Math Contest', start: '2025-04-10' },
+          { title: 'Hackathon', start: '2025-04-15' }
+        ]
+      });
+      calendar.render();
+    });
+  </script>
+
+  </body>
+</html>

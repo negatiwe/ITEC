@@ -1,30 +1,58 @@
 // $(document).ready(function () {
-//     let timeout;
 //     const duration = 10000;
+//     const maxNotifications = 3;
+//     const notificationSpacing = 15;
 //
-//     $("#showNotification").click(function () {
-//         $(".notification").stop(true, true).css({ right: "-400px", display: "flex" })
+//     $("#showSuccess").click(function () {
+//         showNotification("#succes-notification");
+//     });
+//
+//     $("#showFail").click(function () {
+//         showNotification("#fail-notification");
+//     });
+//
+//     $("#showWarning").click(function () {
+//         showNotification("#warning-notification");
+//     });
+//
+//     $(document).on("click", ".cross-icon", function () {
+//         let notification = $(this).closest(".notification");
+//         hideNotification(notification);
+//     });
+//
+//     function showNotification(templateId) {
+//         let notification = $(templateId).clone().removeAttr("id").addClass("stacked");
+//
+//         $("body").append(notification);
+//         updateStack();
+//
+//         notification.css({ right: "-400px", display: "flex" })
 //             .animate({ right: "20px" }, 800);
 //
-//         startProgressBar(duration);
-//         timeout = setTimeout(hideNotification, duration);
-//     });
+//         startProgressBar(duration, notification);
+//         setTimeout(() => hideNotification(notification), duration);
+//     }
 //
-//     $(".cross-icon").click(function () {
-//         clearTimeout(timeout);
-//         hideNotification();
-//     });
-//
-//     function hideNotification() {
-//         $(".notification").animate({ right: "-400px" }, 800, function () {
-//             $(this).hide();
-//             $(".progress-bar").css("width", "100%");
+//     function hideNotification(notification) {
+//         notification.animate({ right: "-400px" }, 800, function () {
+//             $(this).remove();
+//             updateStack();
 //         });
 //     }
 //
-//     function startProgressBar(time) {
-//         $(".progress-bar").css({ width: "100%", transition: `width ${time / 1000}s linear` })
+//     function startProgressBar(time, notification) {
+//         notification.find(".progress-bar").css({ width: "100%", transition: `width ${time / 1000}s linear` })
 //             .width("0%");
+//     }
+//
+//     function updateStack() {
+//         let notifications = $(".stacked");
+//         if (notifications.length > maxNotifications) {
+//             notifications.first().remove();
+//         }
+//         notifications.each(function (index) {
+//             $(this).css("top", `${10 + (index * (70 + notificationSpacing))}px`);
+//         });
 //     }
 // });
 
@@ -33,34 +61,40 @@ $(document).ready(function () {
     const maxNotifications = 3;
     const notificationSpacing = 15;
 
-    $("#showSuccess").click(function () {
-        showNotification("#succes-notification");
-    });
+    // $("#showSuccess").click(() => showNotification("success", "Autentificarea a fost realizată cu succes!"));
+    // $("#showFail").click(() => showNotification("fail", "Credentialele sunt greșite."));
+    // $("#showWarning").click(() => showNotification("warning", "Parola ta este mult prea slabă!"));
 
-    $("#showFail").click(function () {
-        showNotification("#fail-notification");
-    });
+    for (let i = 0; i < 2; i++) {
+        showNotification("success", "Eveniment creat cu succes!");
+        showNotification("fail", "A apărut o eroare la salvare.");
+        showNotification("warning", "Atenție, lipsesc câmpuri!");
+    }
 
-    $("#showWarning").click(function () {
-        showNotification("#warning-notification");
-    });
 
     $(document).on("click", ".cross-icon", function () {
         let notification = $(this).closest(".notification");
         hideNotification(notification);
     });
 
-    function showNotification(templateId) {
-        let notification = $(templateId).clone().removeAttr("id").addClass("stacked");
+    function showNotification(type, message) {
+        const templates = {
+            success: "#succes-notification",
+            fail: "#fail-notification",
+            warning: "#warning-notification"
+        };
 
-        $("body").append(notification);
+        const $template = $(templates[type]).clone().removeAttr("id").addClass("stacked");
+
+        $template.find(".sub-text").text(message);
+        $("body").append($template);
         updateStack();
 
-        notification.css({ right: "-400px", display: "flex" })
+        $template.css({ right: "-400px", display: "flex" })
             .animate({ right: "20px" }, 800);
 
-        startProgressBar(duration, notification);
-        setTimeout(() => hideNotification(notification), duration);
+        startProgressBar(duration, $template);
+        setTimeout(() => hideNotification($template), duration);
     }
 
     function hideNotification(notification) {
@@ -71,8 +105,10 @@ $(document).ready(function () {
     }
 
     function startProgressBar(time, notification) {
-        notification.find(".progress-bar").css({ width: "100%", transition: `width ${time / 1000}s linear` })
-            .width("0%");
+        notification.find(".progress-bar").css({
+            width: "100%",
+            transition: `width ${time / 1000}s linear`
+        }).width("0%");
     }
 
     function updateStack() {

@@ -208,6 +208,55 @@ $(document).ready(function () {
     }
 });
 
+// IFRAMES
+
+
+$(document).ready(function () {
+    $('.chat-message').each(function () {
+        const $message = $(this).find('.user-message');
+        const link = $message.find('a').attr('href');
+
+        if (link) {
+            let embedHTML = '';
+
+            if (link.includes("youtube.com") || link.includes("youtu.be")) {
+                const videoId = getYoutubeID(link);
+                if (videoId) {
+                    embedHTML = `
+            <div class="link-preview">
+              <iframe 
+                src="https://www.youtube.com/embed/${videoId}" 
+                frameborder="0" 
+                allowfullscreen>
+              </iframe>
+            </div>`;
+                }
+            }
+
+            else {
+                const domain = new URL(link).hostname;
+                embedHTML = `
+          <div class="link-preview">
+            <div class="preview-thumb" style="background-image: url('https://via.placeholder.com/150')"></div>
+            <div class="preview-info">
+              <div class="preview-title">Embedded Link</div>
+              <div class="preview-desc">Preview for ${link}</div>
+              <a class="preview-url" href="${link}" target="_blank">${domain}</a>
+            </div>
+          </div>`;
+            }
+
+            $message.after(embedHTML);
+        }
+    });
+
+    function getYoutubeID(url) {
+        const regExp = /(?:youtube\.com.*v=|youtu\.be\/)([^&]+)/;
+        const match = url.match(regExp);
+        return match && match[1] ? match[1] : null;
+    }
+});
+
 
 
 
