@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="add: account settings">
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="add: event-hub">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eventhub.html" beforeDir="false" afterPath="$PROJECT_DIR$/eventhub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/eventhub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/eventhub.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/eventhub.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,7 @@
       <workItem from="1743803458419" duration="5738000" />
       <workItem from="1743835219036" duration="25329000" />
       <workItem from="1743873849653" duration="1037000" />
-      <workItem from="1743875071874" duration="19566000" />
+      <workItem from="1743875071874" duration="19691000" />
     </task>
     <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
       <option name="closed" value="true" />
@@ -207,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743896124143</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: event-hub">
+      <option name="closed" value="true" />
+      <created>1743896978913</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743896978913</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +236,7 @@
     <MESSAGE value="Added - Panel" />
     <MESSAGE value="add: solved some bugs with the google auth function (for front-end)" />
     <MESSAGE value="add: account settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: account settings" />
+    <MESSAGE value="add: event-hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: event-hub" />
   </component>
 </project>
