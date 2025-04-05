@@ -21,18 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-
-    // 🔄 Auto-close sidebar if resized to desktop
-    window.addEventListener("resize", () => {
-        if (window.innerWidth > 768 && sidebar.classList.contains("open")) {
-            sidebar.classList.remove("open");
-        }
-    });
 });
 
-// -------------------------
-// INTEREST TAGS LOGIC
-// -------------------------
 const interestSelect = document.getElementById("interest-select");
 const previewBox = document.getElementById("interest-live-preview");
 
@@ -82,3 +72,4 @@ if (interestSelect && previewBox) {
 
     updateInterestPlaceholder();
 }
+
