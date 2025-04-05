@@ -824,7 +824,6 @@ body {
 }
 
 
-
 @media screen and (max-width: 991px) {
     .all-events {
         width: 80%;
@@ -882,10 +881,6 @@ body {
         padding: 8px 10px 8px 32px;
     }
 }
-
-
-
-
 
 @media screen and (max-width: 600px) {
     .search-header {
