@@ -7,11 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Your Account;&#10;Created - Account Setting - still blank;">
-      <change afterPath="$PROJECT_DIR$/javascript/account-settings.js" afterDir="false" />
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Account Settings;">
+      <change afterPath="$PROJECT_DIR$/fonts/SpaceGrotesk-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/SpaceGrotesk-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/studentions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/ChatGPT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/studentions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-alts/account-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/account-settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-alts/stylesheet/account-settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-alts/stylesheet/account-settings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/default.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -30,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;negatiwe&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/negatiwe/ITEC.git&quot;,
+    &quot;accountId&quot;: &quot;0bed41dc-5ee1-419f-8f84-91255cc61c03&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -44,18 +61,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.studentions.html.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/negatiwe/Desktop/test.html",
+    "last_opened_file_path": "C:/Users/vali-pc/WebstormProjects/ITEC/media",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,6 +85,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vali-pc\WebstormProjects\ITEC\media" />
+      <recent name="C:\Users\vali-pc\WebstormProjects\ITEC\fonts" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\models" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\javascript" />
       <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
@@ -74,10 +95,20 @@
       <recent name="C:\Users\negatiwe\Desktop\ITEC\media" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="studentions.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITEC/studentions.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.studentions.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-WS-251.23774.114" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -124,6 +155,9 @@
       <workItem from="1743100435090" duration="63000" />
       <workItem from="1743100512843" duration="10000" />
       <workItem from="1743101443237" duration="1651000" />
+      <workItem from="1743803185524" duration="203000" />
+      <workItem from="1743803458419" duration="5738000" />
+      <workItem from="1743835219036" duration="5139000" />
     </task>
     <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
       <option name="closed" value="true" />
@@ -133,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743771770411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added - Account Settings;">
+      <option name="closed" value="true" />
+      <created>1743773249252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743773249252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
+    <MESSAGE value="Added - Account Settings;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added - Account Settings;" />
   </component>
 </project>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang = "en-EN">
+  <head>
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "iTEC Cometition - Web Full Stack-Development">
+    <meta name = "author" content = "(c) ADRIAN PEETRISOR and MLADIN ALEXANDRU">
+    <meta name = "keywords" content = "itec, competition, programming, web, development">
+    <meta name = "version" content = "1.0.0">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/default.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet/studentions.css">
+    <link rel = "icon" type = "image/png" href = "media/web-icon.png">
+    <title>iTEC - Studentious App</title>
+  </head>
+  <body>
+    <div class="event-list">
+      <div class="app-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 19.5V6.75C4 5.09315 5.34315 3.75 7 3.75H20V17.25H7C5.34315 17.25 4 18.5931 4 20.25V19.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 20.25V6.75C4 5.09315 5.34315 3.75 7 3.75H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="app-title">Studentious App</span>
+      </div>
+      <div class="event-items">
+<!--        <div class="app-header">-->
+<!--          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--            <path d="M4 19.5V6.75C4 5.09315 5.34315 3.75 7 3.75H20V17.25H7C5.34315 17.25 4 18.5931 4 20.25V19.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--            <path d="M4 20.25V6.75C4 5.09315 5.34315 3.75 7 3.75H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--          </svg>-->
+<!--          <span class="app-title">Studentious App</span>-->
+<!--        </div>-->
+
+        <div class="event-hub-preview">
+          <div class="hub-header">
+            <h2>Event Hub</h2>
+            <button class="btn-glass" onclick="window.location.href='/full-events'">Go to Hub</button>
+          </div>
+
+          <div class="hub-description">
+            <p>Discover, connect, and participate in our wide range of events. The full event hub is just a click away!</p>
+          </div>
+
+          <div class="hub-divider">
+            <span class="divider-text">Your Joined Events</span>
+          </div>
+
+          <div class="joined-events-list">
+            <div class="no-joined-events">
+              <div class="no-event-illustration">📭</div>
+              <h3 class="no-event-title">No events joined yet</h3>
+              <p class="no-event-text">You're missing out on some amazing experiences. Start exploring!</p>
+              <button class="explore-events-btn">Explore Events</button>
+            </div>
+
+            <div class="custom-event-card">
+              <div class="custom-event-info">
+                <h3 class="custom-event-title">Advanced JS Bootcamp</h3>
+                <p class="custom-event-desc">Master JavaScript with top mentors. Limited spots!</p>
+                <div class="custom-btn-wrapper">
+                  <button class="custom-btn-glass">View</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="account-warning">
+        <svg width="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 9v4m0 4h.01M10.29 3.86l-7.5 13A1 1 0 003.6 19h16.8a1 1 0 00.86-1.5l-7.5-13a1 1 0 00-1.72 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Your account is not fully set up. Please complete your profile entering the settings area.</span>
+      </div>
+
+      <div class="current-user">
+        <img src="/media/profile-picture.jpg" alt="User" />
+        <div class="user-info">
+          <span class="user-fullname">Adrian Petrisor</span>
+          <span class="user-nickname">@adrian_petrisor</span>
+        </div>
+        <button class="settings-btn" title="Settings">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Line" width="32" height="20">
+            <path d="m17.074 30h-2.148c-1.038 0-1.914-.811-1.994-1.846l-.125-1.635c-.687-.208-1.351-.484-1.985-.824l-1.246 1.067c-.788.677-1.98.631-2.715-.104l-1.52-1.52c-.734-.734-.78-1.927-.104-2.715l1.067-1.246c-.34-.635-.616-1.299-.824-1.985l-1.634-.125c-1.035-.079-1.846-.955-1.846-1.993v-2.148c0-1.038.811-1.914 1.846-1.994l1.635-.125c.208-.687.484-1.351.824-1.985l-1.068-1.247c-.676-.788-.631-1.98.104-2.715l1.52-1.52c.734-.734 1.927-.779 2.715-.104l1.246 1.067c.635-.34 1.299-.616 1.985-.824l.125-1.634c.08-1.034.956-1.845 1.994-1.845h2.148c1.038 0 1.914.811 1.994 1.846l.125 1.635c.687.208 1.351.484 1.985.824l1.246-1.067c.787-.676 1.98-.631 2.715.104l1.52 1.52c.734.734.78 1.927.104 2.715l-1.067 1.246c.34.635.616 1.299.824 1.985l1.634.125c1.035.079 1.846.955 1.846 1.993v2.148c0 1.038-.811 1.914-1.846 1.994l-1.635.125c-.208.687-.484 1.351-.824 1.985l1.067 1.246c.677.788.631 1.98-.104 2.715l-1.52 1.52c-.734.734-1.928.78-2.715.104l-1.246-1.067c-.635.34-1.299.616-1.985.824l-.125 1.634c-.079 1.035-.955 1.846-1.993 1.846zm-5.835-6.373c.848.53 1.768.912 2.734 1.135.426.099.739.462.772.898l.18 2.341 2.149-.001.18-2.34c.033-.437.347-.8.772-.898.967-.223 1.887-.604 2.734-1.135.371-.232.849-.197 1.181.089l1.784 1.529 1.52-1.52-1.529-1.784c-.285-.332-.321-.811-.089-1.181.53-.848.912-1.768 1.135-2.734.099-.426.462-.739.898-.772l2.341-.18h-.001v-2.148l-2.34-.18c-.437-.033-.8-.347-.898-.772-.223-.967-.604-1.887-1.135-2.734-.232-.37-.196-.849.089-1.181l1.529-1.784-1.52-1.52-1.784 1.529c-.332.286-.81.321-1.181.089-.848-.53-1.768-.912-2.734-1.135-.426-.099-.739-.462-.772-.898l-.18-2.341-2.148.001-.18 2.34c-.033.437-.347.8-.772.898-.967.223-1.887.604-2.734 1.135-.37.232-.849.197-1.181-.089l-1.785-1.529-1.52 1.52 1.529 1.784c.285.332.321.811.089 1.181-.53.848-.912 1.768-1.135 2.734-.099.426-.462.739-.898.772l-2.341.18.002 2.148 2.34.18c.437.033.8.347.898.772.223.967.604 1.887 1.135 2.734.232.37.196.849-.089 1.181l-1.529 1.784 1.52 1.52 1.784-1.529c.332-.287.813-.32 1.18-.089z" id="XMLID_1646_" fill="#7D8590"></path>
+            <path d="m16 23c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7zm0-12c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z" fill="#7D8590" id="XMLID_1645_"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+      <div class="drop-overlay" id="dropOverlay">
+        <div class="drop-content">
+          <p>Drag and drop photos</p>
+          <span>Max file size: 10MB</span>
+        </div>
+      </div>
+      <div class="drop-overlay" id="fileDropOverlay">
+        <div class="drop-content">
+          <p>Drag and drop files</p>
+          <span>Max file size: 10MB</span>
+        </div>
+      </div>
+
+      <input type="file" id="fileInputImages" accept="image/*" style="display: none;" />
+      <input type="file" id="fileInputGeneric" style="display: none;" />
+
+      <div class="event-interface">
+        <button class="burger-toggle" id="burgerToggle" title="Open menu">☰</button>
+        <div class="menu-overlay" id="menuOverlay"></div>
+        <div class="chat-event">
+          <div class="event-header">
+            <div class="channel-label">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 3L8.75 7.5L8.61111 8L7.77778 11M5 21L6.94444 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 3L14 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 9H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 16H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="channel-name">Mathematic event's Adrian</span>
+            </div>
+            <button class="toggle-users" title="Toggle participants">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="chat-event-messages">
+            <div class="chat-message">
+              <img src="media/profile-picture.jpg" alt="User Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Adrian Petrisor</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">14:37</span>
+                  </div>
+                </div>
+                <span class="user-message">Salut! Acesta este un mesaj kilometric care merge pe mai multe rânduri și se adaptează frumos</span>
+              </div>
+            </div>
+
+            <div class="chat-message">
+              <img src="media/profile-picture.jpg" alt="User Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Adrian Petrisor</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">14:37</span>
+                  </div>
+                </div>
+                <span class="user-message">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+              </div>
+            </div>
+
+            <div class="chat-message">
+              <img src="media/profile-picture.jpg" alt="User Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Adrian Petrisor</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">14:37</span>
+                  </div>
+                </div>
+                <span class="user-message">Salut! Acesta este un mesaj kilometric care merge pe mai multe rânduri și se adaptează frumos</span>
+
+                <div class="image-message">
+                  <a href="media/uploaded-image.jpg" target="_blank">
+                    <img src="/media/images.jpg" alt="Sent Image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="chat-message">
+              <img src="media/profile-picture.jpg" alt="User Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Adrian Petrisor</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">15:22</span>
+                  </div>
+                </div>
+                <div class="file-message">
+                  <div class="file-icon">
+                    📄
+                  </div>
+                  <div class="file-info">
+                    <span class="file-name">presentation-final.pdf</span>
+                    <span class="file-extension">PDF Document</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chat-message">
+              <img src="media/profile-picture.jpg" alt="User Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Adrian Petrisor</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">15:40</span>
+                  </div>
+                </div>
+                <span class="user-message">What is the integral of sin(x)?</span>
+              </div>
+            </div>
+
+            <div class="chat-message ai-response">
+              <img src="/media/ChatGPT.png" alt="AI Avatar">
+              <div class="message-content">
+                <div class="message-header">
+                  <span class="user-name">Studentious AI</span>
+                  <div class="message-timestamp">
+                    <span class="message-date">Today</span>
+                    <span class="message-hour">15:40</span>
+                  </div>
+                </div>
+                <span class="user-message">
+      The integral of sin(x) is -cos(x) + C, where C is the constant of integration.
+    </span>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="chat-event-input">
+            <textarea placeholder="Type a message in the event chat..."></textarea>
+
+            <div class="chat-actions">
+              <button title="Ask AI" class = "ask-ai-button">AI</button>
+
+              <button title="Photos">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 5h-3.2l-1.8-2H9l-1.8 2H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V7a2 2 0 00-2-2zm-8 13a5 5 0 110-10 5 5 0 010 10z"/>
+                </svg>
+              </button>
+
+              <button title="Files">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M10 4H4a2 2 0 00-2 2v1h20V6a2 2 0 00-2-2h-8l-2-2zm10 5H2v9a2 2 0 002 2h16a2 2 0 002-2V9z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="registered-event-users">
+          <div class="user-section">
+            <div class="section-header">TEACHERS — <span id="teacher-count">0</span></div>
+            <div class="user-list" id="teacher-list">
+              <!-- example user -->
+              <div class="user-card">
+                <img src="/media/profile-picture.jpg" alt="User">
+                <span>Prof. Andrei Popescu</span>
+              </div>
+            </div>
+          </div>
+          <div class="user-section">
+            <div class="section-header">STUDENTS — <span id="student-count">0</span></div>
+            <div class="user-list" id="student-list">
+              <!-- example user -->
+              <div class="user-card">
+                <img src="/media/profile-picture.jpg" alt="User">
+                <span>Alexandru Mladin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-preview hidden" id="userPreview">
+          <div class="preview-avatar">
+            <img src="/media/profile-picture.jpg" alt="User Avatar">
+          </div>
+          <div class="preview-info">
+            <strong id="previewName">Adrian Petrisor</strong>
+            <span class="preview-role">Student</span>
+            <p class="preview-bio">Passionate about coding, JS wizard & AI lover.</p>
+          </div>
+        </div>
+
+      </div>
+
+    <script src = "javascript/jquery-3.7.1.min.js"></script>
+    <script src = "javascript/studentions.js"></script>
+  </body>
+</html>

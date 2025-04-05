@@ -19,6 +19,9 @@
     --hero-font: "VoxRound-Bold";
     --terminal-font: "Terminal";
 
+    --space-grotesk-r: "SpaceGrotesk-R";
+    --space-grotesk-b: "SpaceGrotesk-B";
+
     /* ADD-ON */
     --even-page: rgb(10, 10, 10);
     --odd-page: rgb(10, 10, 10);
@@ -68,4 +71,14 @@ body {
 @font-face {
     font-family: "Terminal";
     src: url("../fonts/JetBrainsMonoNL-Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "SpaceGrotesk-B";
+    src: url("../fonts/SpaceGrotesk-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "SpaceGrotesk-R";
+    src: url("../fonts/SpaceGrotesk-Regular.ttf") format("opentype");
 }
