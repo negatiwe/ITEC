@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTEC - Account Settings</title>
+    <link rel="stylesheet" href="stylesheet/account-settings.css">
+    <link rel="stylesheet" href="stylesheet/default.css">
+</head>
+    <body>
+
+    <button class="burger-btn" id="toggleSidebar" aria-label="Toggle Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <div class="account-settings-wrapper">
+
+        <div class="account-sidebar">
+            <div class="sidebar-header">
+                <span class="sidebar-title">SETTINGS</span>
+            </div>
+
+            <div class="sidebar-items-wrapper">
+                <div class="sidebar-item active" data-section="profile">My Profile</div>
+                <div class="sidebar-item" data-section="security">Security</div>
+                <div class="sidebar-item" data-section="university">University Info</div>
+                <div class="sidebar-item" data-section="preferences">Preferences</div>
+            </div>
+        </div>
+
+        <div class="account-settings-content">
+            <div id="profile" class="settings-section active">
+                <div class="settings-box profile-box">
+                    <div class="profile-header">
+                        <img src="media/profile-picture.jpg" alt="Profile Picture" class="profile-avatar" draggable="false"/>
+                        <div class="profile-info">
+                            <h2 class="profile-name">John Doe</h2>
+                            <span class="profile-rank">Rank: Student</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-details">
+                        <div class="detail-item"><span class="label">Age:</span> <span class="value">22</span></div>
+                        <div class="detail-item"><span class="label">Email:</span> <span class="value">john@example.com</span></div>
+                        <div class="detail-item"><span class="label">Birthday:</span> <span class="value">2002-04-10</span></div>
+                        <div class="detail-item"><span class="label">Account Created:</span> <span class="value">2022-01-15</span></div>
+                        <div class="detail-item" style = "border: none;"><span class="label">Last Login:</span> <span class="value">2025-04-05 11:23</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="security" class="settings-section">
+                <div class="settings-box security-box">
+                    <h2 class="section-title">Two-Factor Authentication</h2>
+                    <p class="section-description">
+                        Protect your account by enabling 2FA with Google Authenticator.
+                    </p>
+
+                    <div class="twofa-toggle">
+                        <span class="twofa-label">Google Authenticator:</span>
+                        <button id="toggle2FA" class="twofa-button deactivated">Deactivated</button>
+                    </div>
+
+                    <div id="disable2FASection" class="disable-2fa-section">
+                        <p class="section-description">
+                            To disable Google Authenticator, enter your 6-digit code.
+                        </p>
+                        <div class="disable-2fa-form">
+                            <input type="text" id="disable2FACode" placeholder="Enter 6-digit code"
+                                   maxlength="6" pattern="[0-9]*" inputmode="numeric">
+                            <button id="submitDisable2FA" class="disable-btn">Disable 2FA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="university" class="settings-section">
+                <div class="settings-box university-box">
+                    <h2 class="section-title">University Information</h2>
+                    <p class="section-description">
+                        Below are the details related to your academic status.
+                    </p>
+
+                    <div class="university-detail">
+                        <span class="label">University:</span>
+                        <span class="value">University of Technology</span>
+                    </div>
+
+                    <div class="university-detail">
+                        <span class="label">Faculty:</span>
+                        <span class="value">Computer Science</span>
+                    </div>
+
+                    <div class="university-detail">
+                        <span class="label">Role:</span>
+                        <span class="value">Student</span>
+                    </div>
+
+                    <div class="interest-topics-box">
+                        <h3 class="section-subtitle">Your Interests</h3>
+                        <div id="selected-interests" class="selected-interests">
+                            <span class="interest-tag">AI</span>
+                            <span class="interest-tag">Cybersecurity</span>
+                            <span class="interest-tag">Web Development</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-select-box">
+                        <select id="interest-select" class="big-dropdown">
+                            <option value="">Choose a topic</option>
+                            <option value="AI">AI</option>
+                            <option value="Cybersecurity">Cybersecurity</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Blockchain">Blockchain</option>
+                            <option value="DevOps">DevOps</option>
+                            <option value="Game Development">Game Development</option>
+                        </select>
+                    </div>
+
+                    <div id="interest-live-preview" class="interest-live-preview">
+                        <span class="no-interests">No interests selected yet</span>
+                    </div>
+
+                    <button id="saveInterestsBtn" class="save-btn">Save Interests</button>
+
+                    <div class="university-edit-box">
+                        <label for="university-input">University</label>
+                        <input type="text" id="university-input" placeholder="Enter your university" />
+
+                        <label for="faculty-input">Faculty</label>
+                        <input type="text" id="faculty-input" placeholder="Enter your faculty" />
+
+                        <label for="role-select">Role</label>
+                        <select id="role-select">
+                            <option value="Student">Student</option>
+                            <option value="Professor">Professor</option>
+                        </select>
+
+                        <button class="save-btn" id="saveUniversityBtn">Save Changes</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="preferences" class="settings-section">
+
+                <div class="settings-box preferences-box">
+                    <h2 class="section-title">Profile Preferences</h2>
+                    <p class="section-description">
+                        Upload a new avatar to personalize your profile.
+                    </p>
+
+                    <div class="avatar-upload-container">
+                        <img id="avatarPreview" src="media/profile-picture.jpg" alt="Current Avatar" class="avatar-preview" draggable="false" />
+
+                        <input type="file" id="avatarInput" accept="image/*" hidden>
+                        <label for="avatarInput" class="upload-btn">Upload New Avatar</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src = "javascript/jquery-3.7.1.min.js"></script>
+    <script src = "javascript/account.js"></script>
+    <script src = "javascript/preview-photo.js"></script>
+
+</body>
+</html>

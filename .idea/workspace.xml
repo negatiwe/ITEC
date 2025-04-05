@@ -7,15 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="Added - Panel">
-      <change afterPath="$PROJECT_DIR$/eventhub.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylesheet/eventhub.css" afterDir="false" />
+    <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="add: solved some bugs with the google auth function (for front-end)">
+      <change afterPath="$PROJECT_DIR$/account-settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/preview-photo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/account-settings.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/studentions.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/studentions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentions.html" beforeDir="false" afterPath="$PROJECT_DIR$/studentions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/studentions.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/studentions.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.studentions.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/vali-pc/WebstormProjects/ITEC/media",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.studentions.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vali-pc/WebstormProjects/ITEC/media&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\negatiwe\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="6fa548e6-1a05-41e9-9c97-9630423a956e" reportId="ITEC/qodana/2025-03-18" />
@@ -159,7 +156,9 @@
       <workItem from="1743101443237" duration="1651000" />
       <workItem from="1743803185524" duration="203000" />
       <workItem from="1743803458419" duration="5738000" />
-      <workItem from="1743835219036" duration="23002000" />
+      <workItem from="1743835219036" duration="25329000" />
+      <workItem from="1743873849653" duration="1037000" />
+      <workItem from="1743875071874" duration="11629000" />
     </task>
     <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
       <option name="closed" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743840666555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: solved some bugs with the google auth function (for front-end)">
+      <option name="closed" value="true" />
+      <created>1743869862096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743869862096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +213,7 @@
     <MESSAGE value="Added - Your Account;&#10;Created - Account Setting - still blank;" />
     <MESSAGE value="Added - Account Settings;" />
     <MESSAGE value="Added - Panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added - Panel" />
+    <MESSAGE value="add: solved some bugs with the google auth function (for front-end)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: solved some bugs with the google auth function (for front-end)" />
   </component>
 </project>
