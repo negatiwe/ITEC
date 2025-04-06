@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f58b5c1-e4f9-4f6d-ae60-8e7316d45ff6" name="Changes" comment="add: event-hub">
+      <change afterPath="$PROJECT_DIR$/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eventhub.html" beforeDir="false" afterPath="$PROJECT_DIR$/eventhub.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -155,7 +155,8 @@
       <workItem from="1743803458419" duration="5738000" />
       <workItem from="1743835219036" duration="25329000" />
       <workItem from="1743873849653" duration="1037000" />
-      <workItem from="1743875071874" duration="19691000" />
+      <workItem from="1743875071874" duration="20238000" />
+      <workItem from="1743928016624" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="Added - Your Account;&#10;Created - Account Setting - still blank;">
       <option name="closed" value="true" />
@@ -213,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743896978913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add: event-hub">
+      <option name="closed" value="true" />
+      <created>1743897071153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743897071153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: event-hub">
+      <option name="closed" value="true" />
+      <created>1743897100177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743897100177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
