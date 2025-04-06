@@ -1,7 +1,11 @@
 # 🧠 iTEC Learning Front-End
 
-Welcome to the front-end of our collaborative learning platform — developed as part of the **iTEC.ro** competition!  
+Welcome to the front-end of our collaborative learning platform — developed as part of the **iTEC** competition!  
 This app is designed to help students connect, learn together, and prepare for exams through focused study sessions.
+
+🔗 Live / Source: [GitHub Repository](https://github.com/negatiwe/ITEC)
+
+---
 
 ## ✨ Features
 
@@ -11,17 +15,26 @@ This app is designed to help students connect, learn together, and prepare for e
 - 💬 **Collaborative Study Spaces**
 - ⚡️ **Responsive & Fast Experience**
 
+---
+
 ## 🛠 Tech Stack
 
 - **HTML5 & CSS3**
-- **JavaScript (vanilla / optional framework)**
+- **JavaScript (vanilla + libraries)**
 - **Glassmorphism Design** using CSS `backdrop-filter`
-- Fonts and icons via **Google Fonts** & **FontAwesome**
+
+### 📦 JavaScript Libraries Used
+
+- [`three.js`](https://threejs.org/) — 3D rendering & visual effects
+- [`anime.js`](https://animejs.com/) — Lightweight animation library
+- [`jQuery`](https://jquery.com/) — DOM manipulation and simplified JS handling
+
+---
 
 ## 🚀 Getting Started
 
 To run the front-end locally:
 
 ```bash
-git clone https://github.com/yourusername/itec-learning-frontend.git
-cd itec-learning-frontend
+git clone https://github.com/negatiwe/ITEC.git
+cd ITEC
